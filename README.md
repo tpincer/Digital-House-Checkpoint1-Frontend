@@ -40,4 +40,3 @@ comemoração. </li>
 <li> No footer, utilize algum site de ícones para conseguir uma imagem do Linkedin
 e outra do Github. Nesses ícones, faça o link com seu linkedin e github! </li>
 </ol>
-<img src="https://media3.giphy.com/media/rxCetmGLLM9scLofmG/giphy.gif?cid=790b7611ef48f44335cfb9d84c712163b43c61c30a109f9e&rid=giphy.gif&ct=s" alt="digitalHouse.gif"  align="center"/>
