@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="CheckPoint 1 - FrontEnd"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>CheckPoint 01-FrontEnd</title>
+  </head>
+
+  <body>
+    <header class="mainHeader" id="home">
+      <div class="logo-img">
+        <img src="./img/barueri-cidade-logo.png" />
+        <span class="logo_texto">
+          <span style="color: green">Curiosidades </span
+          ><span style="color: #f0a83e"> Barueri</span>
+        </span>
+      </div>
+      <nav class="navMenu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#curiosidades">Curiosidades</a></li>
+          <li><a href="#videos">Vídeos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="mainCarousel">
+      <img src="./img/bgs.jpg" />
+    </section>
+
+    <main class="mainContent">
+      <section class="cards-wrapper" id="curiosidades">
+        <div class="card-grid-space">
+          <a
+            class="card"
+            href="/"
+            style="
+              --bg-img: url('https://portal.barueri.sp.gov.br/imagens/sites/spc/images/monumento12.jpg');
+            "
+          >
+            <div class="textCard">
+              <h1>Praça das Bandeiras</h1>
+              <p>
+                A obra caracteriza-se pelo grande volume de água fluindo em véus
+                e cascatas através de tanques em 3 níveis, que circundam os
+                patamares onde se situam os mastros de 10m das bandeiras de 15
+                nações de maior representatividade para a comunidade do
+                município.
+              </p>
+            </div>
+            <div class="overlayCard"></div>
+          </a>
+        </div>
+
+        <div class="card-grid-space">
+          <a
+            class="card"
+            href="/"
+            style="
+              --bg-img: url('https://portal.barueri.sp.gov.br/imagens/sites/spc/images/monumento3.jpg');
+            "
+          >
+            <div class="textCard">
+              <h1>Farol</h1>
+              <p>
+                Localizado no Corredor de Integração Oeste, o monumento é
+                originário do projeto vencedor do Concurso de Embelezamento
+                Urbano promovido pela Prefeitura. Torre com 25 metros de altura,
+                artisticamente iluminada, à noite é visível a grandes
+                distâncias.
+              </p>
+            </div>
+            <div class="overlayCard"></div>
+          </a>
+        </div>
+
+        <div class="card-grid-space">
+          <a
+            class="card"
+            href="/"
+            style="
+              --bg-img: url('https://portal.barueri.sp.gov.br/imagens/sites/spc/images/monumento1.jpg');
+            "
+          >
+            <div class="textCard">
+              <h1>Fonte Cunhatã</h1>
+              <p>
+                Obra localizada na Praça Lelita Bittencourt, em frente ao SAMEB,
+                na área central, homenageia a mulher. Foi inaugurada em dezembro
+                de 1996, com a reurbanização do Bulevar.
+              </p>
+            </div>
+            <div class="overlayCard"></div>
+          </a>
+        </div>
+        
+      </section>
+
+      <section class="videoSection" id="videos">
+        <h1>Conheça Barueri</h1>
+        <iframe class="video"
+          src="https://www.youtube.com/embed/OFssO_jf7ms"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+    <footer class="mainFooter">
+      <div class="socialMidia">
+        <a href="https://github.com/tpincer" target="_blank">
+          <img
+            src="./img/ico/github.png"
+            alt="Ícone de redirecionamento para o GitHub"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/tiago-pincer-b48a11174/"
+          target="_blank"
+        >
+          <img
+            src="./img/ico/linkedin.png"
+            alt="Ícone de redirecionamento para o LinkedIn"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
